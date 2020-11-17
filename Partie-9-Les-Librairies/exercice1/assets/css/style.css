@@ -1,0 +1,87 @@
+html{
+    background-color: #999;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.button-credit-card {
+    margin-bottom: 15px;
+    width: 40%;
+    height: 24px;
+    outline: none;
+    -webkit-appearance: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    background-color: rgb(110, 169, 245);
+    font-size: 13px;
+}
+
+button {
+    margin-bottom: 15px;
+    width: 20%;
+    height: 24px;
+    outline: none;
+    -webkit-appearance: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    background-color: rgb(110, 169, 245);
+    font-size: 13px;
+}
+
+form {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input-credit-card {
+    margin-bottom: 5px;
+}
+input {
+    display: block;
+    outline: none;
+    -webkit-appearance: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    background-color: #fff;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 33px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 8px;
+    margin-bottom: 15px;
+}
+
+.input-numeral {
+    text-align: right;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a,
+a:hover {
+    color: #999;
+}
+
+a {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+select {
+    height : 30px;
+    background-color: rgb(248, 225, 194);
+}
+
+input{
+    background-color:rgb(248, 225, 194) ;
+}
