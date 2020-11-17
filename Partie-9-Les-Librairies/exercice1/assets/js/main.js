@@ -17,6 +17,7 @@ var cleavePhone = new Cleave('.input-phone', {
     phone: true,
     phoneRegionCode: 'FR'
 });
+// set phone region code    https://github.com/nosir/cleave.js/blob/master/doc/public-methods.md#setphoneregioncoderegioncode
 
 // date
 var cleaveDate = new Cleave('.input-date', {
